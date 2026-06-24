@@ -6,6 +6,7 @@ import RecentTaskList from "../components/RecentTaskList";
 
 function Dashboard() {
   const [tasks, setTasks] = useState([]);
+
   useEffect(() => {
     const fetchTasks = async () => {
       try {
@@ -33,32 +34,47 @@ function Dashboard() {
   );
 
   const data = [
-    { name: "Completed Tasks", value: stats.completed, color: "#00C49F" },
-    { name: "Pending Tasks", value: stats.pending, color: "#FF8040" },
-    { name: "In Progress Tasks", value: stats.in_progress, color: "#0088FE" },
+    { name: "Completed", value: stats.completed, color: "#22c55e" },
+    { name: "Pending", value: stats.pending, color: "#f59e0b" },
+    { name: "In Progress", value: stats.in_progress, color: "#3b82f6" },
   ];
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-10 max-w-6xl mx-auto">
       <div>
-        <h1 className="text-3xl font-bold">Dashboard</h1>
-        <p className="text-gray-500">Welcome to your dashboard!</p>
+        <h1 className="text-4xl font-bold text-slate-600">Dashboard</h1>
+        <p className="mt-1 text-sm text-slate-500">Welcome back! 🤝</p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
-        <StatCard name="Total Tasks" value={tasks.length} />
-        <StatCard name="Completed Tasks" value={stats.completed} />
-        <StatCard name="Pending Tasks" value={stats.pending} />
-        <StatCard name="In Progress Tasks" value={stats.in_progress} />
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-4">
+        <StatCard
+          name="Total Tasks"
+          value={tasks.length}
+          color="text-blue-600"
+        />
+        <StatCard
+          name="Completed"
+          value={stats.completed}
+          color="text-green-500"
+        />
+        <StatCard name="Pending" value={stats.pending} color="text-amber-500" />
+        <StatCard
+          name="In Progress"
+          value={stats.in_progress}
+          color="text-blue-500"
+        />
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
-        <div className="rounded-lg border bg-white p-6 shadow-sm">
+      <div className="grid lg:grid-cols-2 gap-6">
+        <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <h2 className="text-sm font-bold text-slate-800 mb-4">
+            Tasks Overview
+          </h2>
           <OverviewChart data={data} />
         </div>
 
-        <div className="rounded-lg border bg-white p-6 shadow-sm">
-          <RecentTaskList />
+        <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <RecentTaskList tasks={tasks} />
         </div>
       </div>
     </div>

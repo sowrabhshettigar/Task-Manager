@@ -1,14 +1,48 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "title": "Task 1",
-            "status": "pending"
-        },
-        {
-            "id": 2,
-            "title": "Task 2",
-            "status": "completed"
-        }
-    ]
+  "tasks": [
+    {
+      "title": "Complete React Dashboard UI",
+      "description": "Redesign the dashboard page with modern cards, charts, responsive layouts, and improved user experience using Tailwind CSS.",
+      "dueDate": "2026-06-05",
+      "status": "in_progress",
+      "id": "4pFDwHH_9K0"
+    },
+    {
+      "title": "Implement Task Search Feature",
+      "description": "Add task search functionality to allow users to quickly find tasks by title or description.",
+      "dueDate": "2026-06-24",
+      "status": "in_progress",
+      "id": "JnMPYg1Ta1w"
+    },
+    {
+      "title": "Prepare Project Documentation",
+      "description": "Create comprehensive project documentation including setup instructions, architecture overview, and feature descriptions.",
+      "dueDate": "2026-06-24",
+      "status": "pending",
+      "id": "RlUgDyhqGAs",
+      "updatedAt": "2026-06-24T05:56:48.170Z"
+    },
+    {
+      "title": "Fix Task Edit Bugs",
+      "description": "Resolve issues related to task editing, form population, and API update requests.",
+      "dueDate": "2026-06-22",
+      "status": "pending",
+      "id": "P-LgCyza58A"
+    },
+    {
+      "title": "Optimize API Requests",
+      "description": "Refactor API service layer to improve code reusability and reduce duplicate network requests.",
+      "dueDate": "2026-06-26",
+      "status": "in_progress",
+      "id": "GVRu4zoQAXg"
+    },
+    {
+      "title": "Deploy Task Manager Application",
+      "description": "Prepare production build, configure environment variables, and deploy the application to a hosting platform.",
+      "dueDate": "2026-06-18",
+      "status": "completed",
+      "id": "13UoxuLuWt4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
