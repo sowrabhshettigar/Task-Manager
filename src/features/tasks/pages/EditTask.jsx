@@ -10,6 +10,7 @@ function EditTask() {
     title: "",
     description: "",
     dueDate: "",
+    completedAt: "",
     status: "pending",
   });
 
@@ -39,6 +40,12 @@ function EditTask() {
         ...formData,
         updatedAt: new Date().toISOString(),
       };
+      if (formData.status === "completed" && !formData.completedAt) {
+        taskData.completedAt = new Date().toISOString();
+      }
+      if (formData.status !== "completed") {
+        taskData.completedAt = null;
+      }
       await updateTask(id, taskData);
       navigate("/task");
     } catch (error) {

@@ -1,47 +1,49 @@
 {
   "tasks": [
     {
-      "title": "Complete React Dashboard UI",
-      "description": "Redesign the dashboard page with modern cards, charts, responsive layouts, and improved user experience using Tailwind CSS.",
-      "dueDate": "2026-06-05",
-      "status": "in_progress",
-      "id": "4pFDwHH_9K0"
-    },
-    {
-      "title": "Implement Task Search Feature",
-      "description": "Add task search functionality to allow users to quickly find tasks by title or description.",
-      "dueDate": "2026-06-24",
-      "status": "in_progress",
-      "id": "JnMPYg1Ta1w"
+      "title": "Implement Task Search Feature.",
+      "description": "Add task search functionality to allow users to quickly find tasks by title or description",
+      "dueDate": "2026-06-25",
+      "status": "pending",
+      "id": "JnMPYg1Ta1w",
+      "updatedAt": "2026-07-20T10:42:12.627Z",
+      "completedAt": null
     },
     {
       "title": "Prepare Project Documentation",
       "description": "Create comprehensive project documentation including setup instructions, architecture overview, and feature descriptions.",
       "dueDate": "2026-06-24",
-      "status": "pending",
+      "status": "completed",
       "id": "RlUgDyhqGAs",
-      "updatedAt": "2026-06-24T05:56:48.170Z"
+      "updatedAt": "2026-07-20T11:07:18.576Z",
+      "completedAt": "2026-07-20T11:07:18.576Z"
     },
     {
       "title": "Fix Task Edit Bugs",
-      "description": "Resolve issues related to task editing, form population, and API update requests.",
+      "description": "Resolve issues related to task editing, form population, and API update requests",
       "dueDate": "2026-06-22",
-      "status": "pending",
-      "id": "P-LgCyza58A"
+      "status": "completed",
+      "id": "P-LgCyza58A",
+      "updatedAt": "2026-07-20T10:42:22.287Z",
+      "completedAt": "2026-07-20T10:42:22.287Z"
     },
     {
       "title": "Optimize API Requests",
       "description": "Refactor API service layer to improve code reusability and reduce duplicate network requests.",
       "dueDate": "2026-06-26",
-      "status": "in_progress",
-      "id": "GVRu4zoQAXg"
+      "status": "completed",
+      "id": "GVRu4zoQAXg",
+      "updatedAt": "2026-07-20T10:42:41.060Z",
+      "completedAt": "2026-07-20T10:42:41.060Z"
     },
     {
       "title": "Deploy Task Manager Application",
       "description": "Prepare production build, configure environment variables, and deploy the application to a hosting platform.",
       "dueDate": "2026-06-18",
-      "status": "completed",
-      "id": "13UoxuLuWt4"
+      "status": "pending",
+      "id": "13UoxuLuWt4",
+      "updatedAt": "2026-07-20T10:51:02.235Z",
+      "completedAt": null
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

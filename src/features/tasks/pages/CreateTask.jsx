@@ -27,6 +27,7 @@ function CreateTask() {
       ...formData,
       createdAt: now,
       updatedAt: now,
+      completedAt: formData.status === "completed" ? now : null,
     };
     await createTask(taskData);
     navigate("/task");
