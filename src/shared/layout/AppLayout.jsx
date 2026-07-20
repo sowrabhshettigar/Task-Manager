@@ -16,7 +16,6 @@ import {
 const navItems = [
   { to: "/", name: "Dashboard", icon: Home },
   { to: "/task", name: "Tasks", icon: ListTodo },
-  { to: "/task/create", name: "Add Task", icon: PlusSquare },
   { to: "/calendar", name: "Calendar", icon: Calendar },
   { to: "/profile", name: "Profile", icon: User },
   { to: "/settings", name: "Settings", icon: Settings },

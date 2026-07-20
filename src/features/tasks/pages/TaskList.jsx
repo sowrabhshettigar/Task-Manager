@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { getTasks, deleteTask } from "../services/tasks.api";
-import { Pencil, Trash2, Search, Filter } from "lucide-react";
+import { Pencil, Trash2, Search, Filter, Plus } from "lucide-react";
 
 const statusStyles = {
   completed: "bg-green-100 text-green-600",
@@ -87,8 +87,15 @@ function TaskList() {
       <div className="p-6 border-b border-slate-200">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <h1 className="text-xl font-bold text-slate-900">All Tasks</h1>
-        </div>
 
+          <button
+            onClick={() => navigate("/task/create")}
+            className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg shadow-sm transition-colors"
+          >
+            <Plus className="w-4 h-4" />
+            Create Task
+          </button>
+        </div>
         <div className="flex items-center gap-6 mt-6">
           <div className="flex items-center gap-3">
             <div className="relative">
