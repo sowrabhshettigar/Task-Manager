@@ -81,12 +81,12 @@ function TaskDetails() {
 
         <div>
           <h3 className="text-sm font-bold text-slate-800 mb-2">Created At</h3>
-          <p className="text-sm text-slate-600">15 May 2024</p>
+          <p className="text-sm text-slate-600">{task.createdAt ? new Date(task.createdAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : "N/A"}</p>
         </div>
 
         <div>
-          <h3 className="text-sm font-bold text-slate-800 mb-2">Last Updated</h3>
-          <p className="text-sm text-slate-600">16 May 2024</p>
+          <h3 className="text-sm font-bold text-slate-800 mb-2">Completed At</h3>
+          <p className="text-sm text-slate-600">{task.completedAt ? new Date(task.completedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : "N/A"}</p>
         </div>
       </div>
 

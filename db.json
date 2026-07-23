@@ -3,29 +3,20 @@
     {
       "title": "Implement Task Search Feature.",
       "description": "Add task search functionality to allow users to quickly find tasks by title or description",
-      "dueDate": "2026-06-25",
+      "dueDate": "2026-08-25",
       "status": "pending",
       "id": "JnMPYg1Ta1w",
-      "updatedAt": "2026-07-20T10:42:12.627Z",
+      "updatedAt": "2026-07-23T12:12:48.425Z",
       "completedAt": null
     },
     {
       "title": "Prepare Project Documentation",
-      "description": "Create comprehensive project documentation including setup instructions, architecture overview, and feature descriptions.",
+      "description": "Create comprehensive project documentation including setup instructions, architecture overview, and feature description.",
       "dueDate": "2026-06-24",
       "status": "completed",
       "id": "RlUgDyhqGAs",
-      "updatedAt": "2026-07-20T11:07:18.576Z",
-      "completedAt": "2026-07-20T11:07:18.576Z"
-    },
-    {
-      "title": "Fix Task Edit Bugs",
-      "description": "Resolve issues related to task editing, form population, and API update requests",
-      "dueDate": "2026-06-22",
-      "status": "completed",
-      "id": "P-LgCyza58A",
-      "updatedAt": "2026-07-20T10:42:22.287Z",
-      "completedAt": "2026-07-20T10:42:22.287Z"
+      "updatedAt": "2026-07-23T10:12:33.789Z",
+      "completedAt": "2026-07-23T08:03:23.089Z"
     },
     {
       "title": "Optimize API Requests",
@@ -40,10 +31,70 @@
       "title": "Deploy Task Manager Application",
       "description": "Prepare production build, configure environment variables, and deploy the application to a hosting platform.",
       "dueDate": "2026-06-18",
-      "status": "pending",
+      "status": "in_progress",
       "id": "13UoxuLuWt4",
-      "updatedAt": "2026-07-20T10:51:02.235Z",
+      "updatedAt": "2026-07-23T12:06:55.504Z",
       "completedAt": null
+    },
+    {
+      "title": "dfdfg",
+      "description": "fdgdfgdfg",
+      "dueDate": "2026-08-02",
+      "status": "pending",
+      "createdAt": "2026-07-23T12:12:35.044Z",
+      "updatedAt": "2026-07-23T12:12:35.044Z",
+      "completedAt": null,
+      "id": "PVVfjx3EO8s"
+    },
+    {
+      "title": "ertet",
+      "description": "ertret",
+      "dueDate": "",
+      "status": "pending",
+      "createdAt": "2026-07-23T12:25:55.408Z",
+      "updatedAt": "2026-07-23T12:25:55.408Z",
+      "completedAt": null,
+      "id": "63tf_CYktPY"
+    },
+    {
+      "title": "ertret",
+      "description": "erterter",
+      "dueDate": "",
+      "status": "pending",
+      "createdAt": "2026-07-23T12:25:59.572Z",
+      "updatedAt": "2026-07-23T12:25:59.572Z",
+      "completedAt": null,
+      "id": "2L1_527jiaQ"
+    },
+    {
+      "title": "tertr",
+      "description": "etretret",
+      "dueDate": "",
+      "status": "pending",
+      "createdAt": "2026-07-23T12:26:09.367Z",
+      "updatedAt": "2026-07-23T12:26:09.367Z",
+      "completedAt": null,
+      "id": "KV08x6vc_Lo"
+    },
+    {
+      "title": "retre",
+      "description": "ertret",
+      "dueDate": "",
+      "status": "pending",
+      "createdAt": "2026-07-23T12:26:12.682Z",
+      "updatedAt": "2026-07-23T12:26:12.682Z",
+      "completedAt": null,
+      "id": "ko8axtpNFls"
+    },
+    {
+      "title": "rtre",
+      "description": "tretre",
+      "dueDate": "",
+      "status": "pending",
+      "createdAt": "2026-07-23T12:26:15.795Z",
+      "updatedAt": "2026-07-23T12:26:15.795Z",
+      "completedAt": null,
+      "id": "X4vAOKzfb1A"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
